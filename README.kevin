@@ -1,0 +1,21 @@
+To compile on at least Debian 7 through 9, install the following packages 
+first:
+
+build-essential libx11-dev libxrandr-dev libxrender-dev libwebp-dev
+libxau-dev libc6-dev libxt-dev libjpeg-dev
+libtiff-dev libpng-dev libjasper-dev
+
+# added by kevin
+9/2/2019
+libjpeg-dev
+libtiff5-dev
+libpng-dev
+
+cd ~/Downloads
+wget http://security.ubuntu.com/ubuntu/pool/main/j/jasper/libjasper-dev_1.900.1-debian1-2.4ubuntu1.2_amd64.deb
+wget http://security.ubuntu.com/ubuntu/pool/main/j/jasper/libjasper1_1.900.1-debian1-2.4ubuntu1.2_amd64.deb
+sudo apt-get install ./libjasper-dev_1.900.1-debian1-2.4ubuntu1.2_amd64.deb ./libjasper1_1.900.1-debian1-2.4ubuntu1.2_amd64.deb
+
+
+
+This should translate across most Debian-based distributions.
