@@ -10,6 +10,7 @@ libtiff-dev libpng-dev libjasper-dev
 libjpeg-dev
 libtiff5-dev
 libpng-dev
+libxt-dev
 
 cd ~/Downloads
 wget http://security.ubuntu.com/ubuntu/pool/main/j/jasper/libjasper-dev_1.900.1-debian1-2.4ubuntu1.2_amd64.deb
@@ -17,5 +18,7 @@ wget http://security.ubuntu.com/ubuntu/pool/main/j/jasper/libjasper1_1.900.1-deb
 sudo apt-get install ./libjasper-dev_1.900.1-debian1-2.4ubuntu1.2_amd64.deb ./libjasper1_1.900.1-debian1-2.4ubuntu1.2_amd64.deb
 
 
-
+then hopefully: 
+make
+make install
 This should translate across most Debian-based distributions.
